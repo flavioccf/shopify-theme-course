@@ -161,6 +161,13 @@
   flex-wrap: wrap;
 }
 
+.product-count__text,
+.facet-filters > *,
+.facets__wrapper > * {
+  background-color: #fff;
+  padding: 0 5px;
+}
+
 .facets__heading {
   display: block;
   color: rgba(var(--color-foreground), 0.85);

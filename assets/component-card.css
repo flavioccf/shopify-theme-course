@@ -164,6 +164,9 @@
   display: block;
   margin: 0;
   padding-right: 1.2rem;
+  text-align: center;
+  font-size: 17px;
+  font-family: var(--font-body-family);
 }
 
 .card-information__wrapper {
@@ -177,6 +180,7 @@
 
 .card-information__wrapper > .price {
   color: rgb(var(--color-foreground));
+  justify-content: center;
 }
 
 .card-information__wrapper > .rating {

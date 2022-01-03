@@ -7,6 +7,8 @@
 </div>
 
 <div class="hero-collections">
+  <div class="parallax parallax-one" style="background-image: url({{ 'bubble-fave.svg' | asset_url }})"></div>
+  <div class="parallax parallax-two" style="background-image: url({{ 'bubble-fave.svg' | asset_url }})"></div>
 <div class="hero-collections__card-container">
   {% for block in section.blocks %}
   <a class="hero-collections__card" href="{{ block.settings.collection.url }}">
